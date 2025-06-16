@@ -33,7 +33,6 @@ const App = () => {
       description: 'A heartwarming story of friendship.',
       posterURL: 'https://fzmovies.ng/wp-content/uploads/2025/04/l38gopJwR02V-1-675x1013.webp',
       rating: 8.5,
-      link: 'https://www.lulacloud.com/d/MDbCzJYTj62-chhaava-2025-awafim-tv-mkv', // watch link
       trailer: 'https://youtube.com/embed/hs3w32RG8L8?si=lnyUjHD91gIflY7V'
     }
   ]);
