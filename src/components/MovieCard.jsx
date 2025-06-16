@@ -1,12 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MovieCard = ({ movie }) => (
   <div className="card">
-    <a href={movie.link} target="_blank" rel="noopener noreferrer">
+    <Link to={`/movie/${encodeURIComponent(movie.title)}`}>
       <img src={movie.posterURL} alt={movie.title} width="200" />
-    </a>
+    </Link>
     <h3>{movie.title}</h3>
-    <p>{movie.description}</p>
     <p>⭐ {movie.rating}</p>
   </div>
 );
